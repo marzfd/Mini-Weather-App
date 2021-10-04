@@ -2,7 +2,7 @@ function main() {
 
   function getWeather(cityName) {
  
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=50a897e65a7d7b43992cff37f353db7b`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=50a897e65a7d7b43992cff37f353db7b`;
   
     // Show loading
     const messageEl = document.getElementById('message');
